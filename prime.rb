@@ -12,4 +12,4 @@ def prime?(int)
     end
 end
 
-puts prime?(7)
+puts prime?(100)
