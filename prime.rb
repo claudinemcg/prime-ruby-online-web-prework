@@ -5,9 +5,10 @@ def prime?(int)
     end
     
     (2...int).each do |num|
-      int % num  == 0
-      return false
+      if int % num  == 0
+        return false
       else return true
+      end
     end
 end
 
