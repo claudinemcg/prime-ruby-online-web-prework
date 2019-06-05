@@ -1,6 +1,6 @@
 def prime?(int)
   i = 0
- range = (2..int) 
+  arr = [2..int] 
   (2...int).each do
     if int % arr[i] == 0
       return false
