@@ -2,11 +2,13 @@ def prime?(int)
   
     if int <= 2
       return false
-    elsif int %  == 0
-      
-    else return true
     end
-  end
+    
+    (2...int).each do |num|
+      int % num  == 0
+      return false
+      else return true
+    end
 end
 
 prime?(7)
